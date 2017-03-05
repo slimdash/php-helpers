@@ -6,7 +6,7 @@ if (!function_exists('str_slugify')) {
      * @param  string   $text
      * @return string
      */
-    function strSlugify($text)
+    function str_slugify($text)
     {
         // replace non letter or digits by -
         $text = preg_replace('~[^\\pL\d]+~u', '-', $text);
